@@ -1,0 +1,355 @@
+<resources>
+    <string name="repass">Reset Password</string>
+    <string name="cloca">เลือกพื้นปลูกของท่าน</string>
+    <string name="app_name">FarmerMate</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="wb">"Welcome Back My Mate!!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="rec">แนะนำพันธุ์ข้าว</string>
+    <string name="analyz">วิเคราะห์</string>
+    <string name="cpro1">เลือกภาคที่ท่านต้องการปลูก</string>
+    <string name="cpro">เลือกจังหวัดที่ท่านต้องการปลูก</string>
+    <string name="crice">เลือกพันธ์ุข้าวท่านต้องการปลูก</string>
+    <string name="csolid">เลือกลักษณะดินที่นาของท่าน</string>
+    <string name="size">กรอกขนาดที่นาของท่าน</string>
+    <string name="size1">ไร่</string>
+
+    <string name="cwat">เลือกแหล่งน้ำของท่าน</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="Email">E-mail</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Recom">ความเหมาะสมของช่วงเวลา\nปลูกข้าว"</string>
+    <string name="redd">แนะนำพันธุ์ข้าว</string>
+    <string name="redd1">พันธุ์ข้าวที่แนะนำ</string>
+    <string name="tab">ตารางการทำนา</string>
+    <string name="nlo">พื้นที่นาใกล้เคียง</string>
+    <string name="expmoney">บันทึกค่าใช้จ่าย</string>
+    <string name="tab1">สร้างตารางการทำนา</string>
+    <string name="tab12">เลือกวันที่ท่านต้องการปลูก</string>
+    <string name="weath">สภาพอากาศ</string>
+    <string name="submit">submit</string>
+
+
+    <string name="Amount">จำนวนเงิน</string>
+    <string name="Category">ประเภท</string>
+    <string name="Notes">โน๊ต</string>
+    <string name="Delete">ลบ</string>
+    <string name="Edit">แก้ไข</string>
+    <string name="Spenton">ตั้งค่า</string>
+
+
+    <string-array name="province_array">
+        <item>ภาคเหนือ</item>
+        <item>ภาคกลาง</item>
+        <item>ภาคตะวันออกเฉียงเหนือ</item>
+        <item>ภาคตะวันออก</item>
+        <item>ภาคใต้</item>
+    </string-array>
+
+
+    <string-array name="North">
+        <item name="1">เชียงราย</item>
+        <item id="1">น่าน</item>
+        <item id="1">พะเยา</item>
+        <item id="1">แพร่</item>
+        <item id="1">แม่ฮ่องสอน</item>
+        <item id="1">ลำปาง</item>
+        <item id="1">ลำพูน</item>
+        <item>จุตรดิตถ์</item>
+        <item>สุโขทัย</item>
+        <item>เชียงใหม่</item>
+        <item>พิจิตร</item>
+        <item>พิษณุโลก</item>
+        <item>กำแพงเพชร</item>
+        <item>เพชรบูรณ์</item>
+        <item>ตาก</item>
+    </string-array>
+    <string-array name="central">
+        <item>นครสวรรค์</item>
+        <item>อุทัยธานี</item>
+        <item>ชัยนาท</item>
+        <item>สิงห์บุรี</item>
+        <item>ลพบุรี</item>
+        <item>อ่างทอง</item>
+        <item>สระบุรี</item>
+        <item>สุพรรณบุรี</item>
+        <item>พระนครศรีอยุธยา</item>
+        <item>กาญจนบุรี</item>
+        <item>ราชบุรี</item>
+        <item>นครปฐม</item>
+        <item>นนทบุรี</item>
+        <item>ปทุมธานี</item>
+        <item>กรุงเทพมหานคร</item>
+        <item>สมุทรปราการ</item>
+        <item>สมุทรสงคราม</item>
+        <item>สมุทรสาคร</item>
+    </string-array>
+    <string-array name="NE">
+        <item>หนองคาย</item>
+        <item>เลย</item>
+        <item>หนองบัวลำภู</item>
+        <item>อุดรธานี</item>
+        <item>สกลนคร</item>
+        <item>นครพนม</item>
+        <item>มุกดาหาร</item>
+        <item>กาฬสินธุ์</item>
+        <item>ขอนแก่น</item>
+        <item>มหาสารคาม</item>
+        <item>ร้อยเอ็ด</item>
+        <item>ยโสธร</item>
+        <item>อำนาจเจริญ</item>
+        <item>ชัยภูมิ</item>
+        <item>บุรีรัมย์</item>
+        <item>สุรินทร์</item>
+        <item>ศรีสะเกษ</item>
+        <item>นครราชสีมา</item>
+        <item>อุบลราชธานี</item>
+    </string-array>
+    <string-array name="E">
+        <item>นครนายก</item>
+        <item>ฉะเชิงเทรา</item>
+        <item>ปราจีนบุรี</item>
+        <item>สระแก้ว</item>
+        <item>ชลบุรี</item>
+        <item>ระยอง</item>
+        <item>จันทบุรี</item>
+        <item>ตราด</item>
+    </string-array>
+    <string-array name="South">
+        <item>เพชรบุรี</item>
+        <item>ประจวบคีรีขันธ์</item>
+        <item>ชุมพร</item>
+        <item>สุราษฎร์ธานี</item>
+        <item>นครศรีธรรมราช</item>
+        <item>พัทลุง</item>
+        <item>สงขลา</item>
+        <item>ปัตตานี</item>
+        <item>ยะลา</item>
+        <item>นราธิวาส</item>
+        <item>ระนอง</item>
+        <item>พังงา</item>
+        <item>ภูเก็ต</item>
+        <item>กระบี่</item>
+        <item>ตรัง</item>
+        <item>สตูล</item>
+    </string-array>
+
+    <string-array name="solid_array">
+        <item>ดินเหนียว</item>
+        <item>ดินร่วน</item>
+        <item>ดินทราย</item>
+    </string-array>
+    <string name="r1">ข้าวดอกมะลิ 105 (Khao Dawk Mali 105)</string>
+    <string name="kdm">เป็นข้าวเจ้า มีช่วงเก็บเกี่ยวในเดือนพฤศจิกายน \n ผลผลิตเฉลี่ย 363 กิโลกรัมต่อไร่ อมิโลสต่ำ ข้าวสุกนุ่มหอม \n เมล็ดมีระยะพักตัว 8 สัปดาห์ ทนแล้งได้ดีพอสมควร \n ทนดินเปรี้ยวและดินเค็ม</string>
+    <string-array name="rice_name">
+        <item>เลือกพันธุ์ข้าว</item>
+        <item>ข้าวดอกมะลิ 105</item>
+        <item>สันป่าตอง</item>
+
+    </string-array>
+    <string-array name="rice_descrip">
+        <item>เป็นข้าวเจ้า มีช่วงเก็บเกี่ยวในเดือนพฤศจิกายน \n ผลผลิตเฉลี่ย 363 กิโลกรัมต่อไร่ อมิโลสต่ำ ข้าวสุกนุ่มหอม \n เมล็ดมีระยะพักตัว 8 สัปดาห์ ทนแล้งได้ดีพอสมควร \n ทนดินเปรี้ยวและดินเค็ม
+</item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 150 เซนติเมตร ไวต่อช่วงแสง \n ลําต้นสีเขียวกอแผ่กระจายเมล็ดข้าวมีรูปร่างเรียวยาวข้าวเปลือกสีฟาง ระยะพักตัวของเมล็ด \n ประมาณ 8 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้าต้นสูง สูงประมาณ 145 เซนติเมตร เป็นพันธุ์ข้าวไวต่อช่วงแสงเล็กน้อย \n เหมาะทีจะปลูกเป็นข้าวนาปีลําต้นสีม่วงมีรวงยาวต้นแข็งไม่ล้มง่ายระยะพักตัวของเมล็ด \n ประมาณ 6 สัปดาห</item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 160 เซนติเมตร ไวต่อช่วงแสง ลําต้นตังตรง สีเขียว ใบธงตก\n ชูรวงอยู่เหนือใบระแง้ถี เมล็ดข้าวเปลือกสีนําตาล ระยะพักตัวของเมล็ด \n ประมาณ 3 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 150 เซนติเมตร ไวต่อช่วงแสง ลําต้นและใบสีเขียวกว้างและยาว\n คอรวงยาว ข้าวเปลือกสีเหลืองยาวเรียวระยะพักตัวของเมล็ด \n ประมาณ 3 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 140 เซนติเมตร ไวต่อช่วงแสง ลําต้นสีเขียวใบกว้าง รวงใหญ่และยาว \n เมล็ดรูปร่างยาวเรียว ข้าวเปลือกสีฟาง ระยะพักตัวของเมล็ด \n ประมาณ 5 สัปดาห</item>
+        <item> เป็นข้าวเจ้า สูงประมาณ 160 เซนติเมตร ไวต่อช่วงแสง ลําต้นสูง ทรงกอตังฟางแข็งปานกลาง ใบสีเขียวธงเอน \n คอรวงยาว รวงแน่นปานกลาง ระแง้ถี เมล็ดข้าวเปลือกสีฟาง</item>
+    </string-array>
+
+
+    <string-array name="rice_descrip2">
+        <item>เป็นข้าวเจ้า สูงประมาณ 100 เซนติเมตร ไม่ไวต่อช่วงแสง \n ลําต้นและใบสีเขียว เมล็ดเรียวยาว เมล็ดข้าวเปลือกสีนํ้าตาล \n ระยะพักตัวของเมล็ดประมาณ 3 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 115 เซนติเมตร ไม่ไวต่อช่วงแสง \n เมล็ดข้าวเปลือกสีฟาง ท้องไข่น้อย ระยะพักตัวของเมล็ดประมาณ 1 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้า ไม่ไวต่อช่วงแสง \n ทรงกอตั้งต้นแข็งไม่ล้มง่าย ใบสีเขียวเข้มตั้งตรง รวงแน่นปานกลาง คอรวงยาว เมล็ดข้าวเปลือกสีฟาง \n ระยะพักตัวของเมล็ดพันธุ์ประมาณ 4-6 สัปดาห์
+</item>
+        <item>เป็นข้าวเจ้าไม่ไวต่อช่วงแสง \n ทรงกอตั้งต้นค่อนข้างแข็ง ใบสีเขียวหักลง รวงแน่นปานกลาง คอรวงยาว เมล็ดข้าวเปลือกสีฟาง ข้าวกล้องสีขาวรูปร่างเรียว \n ระยะพักตัวของเมล็ดพันธุ์ประมาณ 8 สัปดาห์
+</item>
+        <item>ป็นข้าวเจ้าไม่ไวต่อช่วงแสง สูงประมาณ 103 เซนติเมตร \n ทรงกอตั้ง ต้นค่อนข้างแข็ง ใบสีเขียวจางเอนปานกลาง เมล็ดข้าวเปลือกสีฟาง ข้าวกล้องสีขาวรูปร่างเรียว   </item>
+        <item>เป็นข้าวเจ้า สูงประมาณ 90-100 เซนติเมตร \n ไม่ไวต่อช่วงแสง ลําต้นแข็งมาก ใบสีเขียว มุมใบธงกว้างปานกลาง รวงยาว เมล็ดข้าวเปลือกสีฟาง</item>
+        <item>รายละเอียด</item>
+    </string-array>
+
+
+    <string-array name="array_technology">
+        <item>เตรียมหน้าดินครั้งที่ 1 โดยการไถดะ</item>
+        <item>เตรียมหน้าดินครั้งที่ 2 โดยการไถแปร</item>
+        <item>เตรียมเมล็ดพันธุ์โดยการนำไปแช่น้ำ เพื่อให้เกิดการงอกของราก</item>
+        <item>เตรียมหน้าดินครั้งที่ 3 โดยการไถคราด</item>
+        <item>นำน้ำเข้านา</item>
+        <item>หว่านข้าว</item>
+        <item>ใสปุ่๋ยครั้งที่ 1 \n ใส่ปุ๋ยสูตร 16-16-8 หรือปุ๋ยที่มีส่วนนผสมของแอมโมเนียมฟอสเฟตสูตรต่างๆ</item>
+        <item>ตรวจสอบโรคข้าวและศัตรูพืช \nถ้าพบให้เลือกใช้ยาที่เหมากับโรคและศัตรูพืชที่เจอ\nโรคที่มักจะพบในช่วงนี้:โรคใบสีส้ม โรคขอบใบแห้ง \nศัตรูพืช:แมลง เพลี้ยกระโดดสีน้ำตาล เพลี้ยจักจั่นสีเขียว และหนอนกอ</item>
+        <item>ใสปุ่๋ยครั้งที่ 2 \n ใส่ปุ๋ยยูเรีย 46-0-0 หรือปุ๋ยแอมโมเนียมซัลเฟต 21-0-0</item>
+        <item>นำน้าออกจากนา</item>
+        <item>ใสปุ่๋ยครั้งที่ 3 \n ใส่ปุ๋ยยูเรีย 46-0-0 หรือปุ๋ยแอมโมเนียมซัลเฟต 21-0-0</item>
+        <item>ตรวจสอบโรคข้าวและศัตรูพืช \nถ้าพบให้เลือกใช้ยาที่เหมากับโรคและศัตรูพืชที่เจอ \nโรคที่มักจะพบในช่วงนี้:โรคไหม้ และโรคใบหงิก \nศัตรูพืช:เพลี้ยกระโดดสีน้ำตาล  และหนอนกอ</item>
+        <item>นำน้ำเข้านา</item>
+        <item>ตรวจสอบโรคข้าวและศัตรูพืช \n ถ้าพบให้เลือกใช้ยาที่เหมากับโรคและศัตรูพืชที่เจอ</item>
+        <item>นำน้าออกจากนา</item>
+        <item>เก็บเกี่ยว</item>
+
+    </string-array>
+
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+    <string name="nextc">Continue..</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location_save">Map</string>
+
+
+    <!--ex -->
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sort_spinner">Sort Spinner</string>
+    <string name="filter_spinner">Filter Spinner</string>
+    <string name="add">Add</string>
+    <string name="sort">sort</string>
+    <string name="title_activity_charts">ChartsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="iFinance">iFinance</string>
+    <string name="AddIncomeorExpense">เพิ่มรายได้หรือค่าใช้จ่าย</string>
+    <string name="date">วันที่</string>
+    <string name="ChangeDate">เปลี่ยนวันที่</string>
+    <string name="Income">รายรับ</string>
+    <string name="Expense">รายจ่าย</string>
+    <string name="Description">คำอธิบาย</string>
+    <string name="Add">เพิ่ม</string>
+    <string name="Update">อัปเดท</string>
+
+    <string-array name="filterOptions">
+        <item></item>
+        <item>Amount</item>
+        <item>Date</item>
+        <item>Type</item>
+    </string-array>
+
+    <string-array name="sortOptions">
+        <item></item>
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="incomeTagOptions">
+
+        <item>ค่าแรงงาน</item>
+        <item>ค่าปุ๋ย</item>
+        <item>ค่าเมล็ดพันธุ์ข้าว</item>
+        <item>อื่นๆ</item>
+
+    </string-array>
+
+    <string-array name="expenseTagOptions">
+
+        <item>ค่าแรงงาน</item>
+        <item>ค่าปุ๋ย</item>
+        <item>ค่าเมล็ดพันธุ์ข้าว</item>
+        <item>ค่าสารกำจัดแมลง</item>
+        <item>ค่าสารกำจัดศัตรูพืช</item>
+        <item>ค่าเครื่องมือ/อุปกรณ์</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+</resources>

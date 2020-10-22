@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.farmermate">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FarmerMate1"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+        <activity android:name=".MapsMark"></activity>
+        <activity android:name=".UpRAc" />
+        <activity android:name=".RecPage" />
+        <activity android:name=".WorkList" />
+        <activity android:name=".TableP" />
+        <activity android:name=".CalendV" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".ExpenseMoney" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.vision"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB9b0KPnn6793XEV_wcm0yORapUnCkMEFQ" />
+
+        <activity android:name=".CalendarAc" />
+        <activity android:name=".CalendarAc1" />
+        <activity android:name=".RetrieveMapActivity" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".RecomDetail" />
+        <activity android:name=".ProfileEdit" />
+        <activity android:name=".CreateTable" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Rice2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreenActivity" />
+        <activity
+            android:name=".WeatherPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TablePage" />
+        <activity android:name=".RecomPage" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".MainPage" />
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".user" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".ViewActivity_ex" />
+        <activity android:name=".AddActivity_ex" />
+        <activity android:name=".Home" />
+        <activity android:name=".AddRecordActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SettingsActivity_ex" />
+        <activity android:name=".ChartsActivity" />
+        <activity android:name=".AppCompatPreferenceActivity" />
+        <activity android:name=".UpdateRecordActivity_ex" />
+    </application>
+
+</manifest>
